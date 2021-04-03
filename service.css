@@ -1,0 +1,72 @@
+@font-face {
+    src: url("fonts/KiwiMaru-Light.ttf");
+    font-family: korim;
+}
+@font-face {
+    src: url("fonts/KiwiMaru-Regular.ttf");
+    font-family: rohim;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: rohim;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+
+h1 {
+    text-align: center;
+    color: rebeccapurple;
+    font-size: 50px;
+}
+
+
+.button {
+    height: 100px;
+    width: 100%;
+    position: relative;
+
+}
+
+.main {
+    width: 150px;
+    margin: auto;
+    background-color: linen;
+    margin-top: 20px;
+    display: none;
+    clear: right;
+
+    position: absolute;
+
+    top: 33px;
+    right: 58px;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main h3 {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    float: right;
+}
+
+.main ul {
+    text-align: center;
+}
+
+.main ul li {
+    padding: 10px 20px;
+}
